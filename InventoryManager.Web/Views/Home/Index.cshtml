@@ -1,0 +1,26 @@
+﻿@model IList<InventoryManager.Query.ReadModel.InventoryItem>
+@{
+    ViewBag.Title = "Inventory Manager";
+}
+
+<h2><a href="@Url.Action("Add")"> Add New Inventory </a></h2>
+
+<li>@Html.ActionLink("Refresh", "Index", "Home", new { area = "" }, null)</li>
+
+<table>
+    <tr>
+        <th>
+            Identifier
+        </th>
+        <th>
+            Name
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>

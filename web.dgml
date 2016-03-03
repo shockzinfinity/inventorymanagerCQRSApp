@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="BottomToTop" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Category="CSProject" Bounds="1434.96377359402,123.123588480084,199.873333333333,25" Group="Collapsed" Label="InventoryManager.Application" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\bin\Debug\InventoryManager.Application.dll" Bounds="1387.35050502458,415.373659627981,195.353333333333,25.96" Label="InventoryManager.Application.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\InventoryManager.Domain.csproj" Category="CSProject" Bounds="1443.33204801844,52.7815371246698,181.353333333333,25" Group="Collapsed" Label="InventoryManager.Domain" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\bin\Debug\InventoryManager.Domain.dll" Bounds="1433.87986223744,333.158646349723,176.833333333333,25.96" Label="InventoryManager.Domain.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\InventoryManager.Infrastructure.Bus.MassTransitBus.csproj" Category="CSProject" Bounds="1812.51182434107,213.744765792922,315.983333333337,25" Group="Collapsed" Label="InventoryManager.Infrastructure.Bus.MassTransitBus" UseManualLocation="True">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\bin\Debug\InventoryManager.Infrastructure.Bus.MassTransitBus.dll" Bounds="1843.01384677791,380.024140797399,311.463333333333,25.96" Label="InventoryManager.Infrastructure.Bus.MassTransitBus.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Category="CSProject" Bounds="1727.63779005614,130.46174910577,238.273333333334,25" Group="Collapsed" Label="InventoryManager.Infrastructure.Core" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\bin\Debug\InventoryManager.Infrastructure.Core.dll" Bounds="1568.52087566286,218.535990609554,233.753333333333,25.96" Label="InventoryManager.Infrastructure.Core.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\InventoryManager.Infrastructure.UnityContainer.csproj" Category="CSProject" Bounds="1763.11513241046,289.983175155987,292.746666666666,25" Group="Collapsed" Label="InventoryManager.Infrastructure.UnityContainer" UseManualLocation="True">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\bin\Debug\InventoryManager.Infrastructure.UnityContainer.dll" Bounds="1686.88404326058,380.225569140625,288.226666666667,25.96" Label="InventoryManager.Infrastructure.UnityContainer.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.CloudServices\InventoryManager.CloudServices.ccproj" Bounds="1421.11547141983,404.874788774495,213.383333333333,25" Group="Collapsed" Label="InventoryManager.CloudServices" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.CloudServices\bin\Debug\InventoryManager.CloudServices.dll" Bounds="1378.69825765704,588.904502884948,208.863333333333,25.96" Label="InventoryManager.CloudServices.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Category="CSProject" Bounds="1459.80546886136,226.083957068496,193.49,25" Group="Collapsed" Label="InventoryManager.Web.Main" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\bin\Debug\InventoryManager.Web.Main.dll" Bounds="1395.0843359375,378.560254370117,188.97,25.96" Label="InventoryManager.Web.Main.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Category="CSProject" Bounds="1448.37730145922,294.874588774495,164.31,25" Group="Collapsed" Label="InventoryManager.Web" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\bin\InventoryManager.Web.dll" Bounds="1414.68049167464,522.764308098187,159.79,25.96" Label="InventoryManager.Web.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\InventoryManager.Query.DataAccess.csproj" Category="CSProject" Bounds="1135.62543440231,389.934151370292,234.446666666667,25" Group="Collapsed" Label="InventoryManager.Query.DataAccess" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\bin\Debug\InventoryManager.Query.DataAccess.dll" Bounds="1079.46050998867,419.332169321547,229.926666666667,25.96" Label="InventoryManager.Query.DataAccess.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\InventoryManager.Query.ReadModel.csproj" Category="CSProject" Bounds="1136.25252188724,269.259928937405,235.146666666667,25" Group="Collapsed" Label="InventoryManager.Query.ReadModel" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\bin\Debug\InventoryManager.Query.ReadModel.dll" Bounds="1171.81781207806,305.618499184789,230.626666666667,25.96" Label="InventoryManager.Query.ReadModel.dll" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\bin\Debug\InventoryManager.Application.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\InventoryManager.Domain.csproj" Bounds="1534.28126083221,86.7808140343304,0.460717036769665,36.3427744457537" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1634.83710692735,137.975022949408,83.8031734093174,1.9718255287693" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\InventoryManager.Query.ReadModel.csproj" Bounds="1285.85322079478,148.123588480084,225.005066076773,116.984667739081" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\InventoryManager.Domain.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\bin\Debug\InventoryManager.Domain.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Domain\InventoryManager.Domain\InventoryManager.Domain.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1584.33777115604,77.7815371246697,203.372997645632,50.5108310949232" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\InventoryManager.Infrastructure.Bus.MassTransitBus.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\bin\Debug\InventoryManager.Infrastructure.Bus.MassTransitBus.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\InventoryManager.Infrastructure.Bus.MassTransitBus.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1872.81120662933,160.487296682188,79.121716331241,53.2574691107337" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\bin\Debug\InventoryManager.Infrastructure.Core.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\InventoryManager.Infrastructure.UnityContainer.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1801.80517578125,163.386093139648,82.301513671875,126.597091674805" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\InventoryManager.Infrastructure.UnityContainer.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\bin\Debug\InventoryManager.Infrastructure.UnityContainer.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.CloudServices\InventoryManager.CloudServices.ccproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.CloudServices\bin\Debug\InventoryManager.CloudServices.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.CloudServices\InventoryManager.CloudServices.ccproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Bounds="1528.11681517944,328.871828128035,1.8829100726341,76.0029606464601" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Bus.MassTransitBus\InventoryManager.Infrastructure.Bus.MassTransitBus.csproj" Bounds="1653.29546886136,231.222366395648,150.220351194647,4.47779711152657" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1594.48935278341,158.278116421362,205.798233403897,67.8058406471342" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.UnityContainer\InventoryManager.Infrastructure.UnityContainer.csproj" Bounds="1625.59239289539,251.083957068496,205.998123830546,37.2958399394063" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\bin\Debug\InventoryManager.Web.Main.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Application\InventoryManager.Application\InventoryManager.Application.csproj" Bounds="1449.09887695313,155.037536621094,69.623046875,139.837066650391" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Infrastructure\InventoryManager.Infrastructure.Core\InventoryManager.Infrastructure.Core.csproj" Bounds="1567.13220214844,159.904403686523,249.792724609375,134.970199584961" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web.Main\InventoryManager.Web.Main.csproj" Bounds="1535.26008320015,259.501967518879,13.3787226320947,35.372621255616" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\bin\InventoryManager.Web.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\InventoryManager.Query.DataAccess.csproj" Bounds="1297.87806932928,319.874588774495,196.139818674202,67.1446560794247" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\InventoryManager.Web\InventoryManager.Web.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\InventoryManager.Query.ReadModel.csproj" Bounds="1379.14251866958,293.36046716049,69.2358847758162,6.40915186891965" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\InventoryManager.Query.DataAccess.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\bin\Debug\InventoryManager.Query.DataAccess.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.DataAccess\InventoryManager.Query.DataAccess.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\InventoryManager.Query.ReadModel.csproj" Bounds="1252.94997902431,303.259633932631,0.701795168372428,86.674517437661" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\InventoryManager.Query.ReadModel.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\InventoryManager\Query\InventoryManager.Query.ReadModel\bin\Debug\InventoryManager.Query.ReadModel.dll" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CSProject" Background="#FF3A8F35" />
+    <Category Id="Category5" Label="Category 5" Background="#FF9B4F96" IsTag="True" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 6" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 3" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF3EBCED" />
+    </Style>
+  </Styles>
+</DirectedGraph>
