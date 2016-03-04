@@ -1,8 +1,8 @@
 ﻿namespace InventoryManager.Infrastructure.Core.IoC
 {
-    public interface IContainer
+    public interface IDependencyContainer
     {
-        IDependencyRegistrar Registrar { get; set; }
+        IDependencyRegistry Registrar { get; set; }
         IDependencyResolver Resolver { get; set; }
         object Container { get; }        
     }

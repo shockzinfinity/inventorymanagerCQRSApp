@@ -6,11 +6,11 @@ using Microsoft.Practices.Unity;
 
 namespace InventoryManager.Infrastructure.UnityContainer
 {
-    public class UnityResolver : IDependencyResolver
+    public class UnityDependencyResolver : IDependencyResolver
     {
         private readonly IUnityContainer _container;
 
-        public UnityResolver(IUnityContainer container)
+        public UnityDependencyResolver(IUnityContainer container)
         {
             _container = container;
         }

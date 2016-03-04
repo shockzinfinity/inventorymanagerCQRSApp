@@ -3,17 +3,17 @@ using Microsoft.Practices.Unity;
 
 namespace InventoryManager.Infrastructure.UnityContainer
 {
-    public class UnityIocContainer : IContainer
+    public class UnityDependencyContainer : IDependencyContainer
     {
-        public IDependencyRegistrar Registrar { get; set; }
+        public IDependencyRegistry Registrar { get; set; }
         public IDependencyResolver Resolver { get; set; }
         public object Container { get; private set; }
 
-        public UnityIocContainer()
+        public UnityDependencyContainer()
         {
             Container = new Microsoft.Practices.Unity.UnityContainer();
-            Registrar = new UnityRegistrar(Container as IUnityContainer);
-            Resolver = new UnityResolver(Container as IUnityContainer);
+            Registrar = new UnityRegistry(Container as IUnityContainer);
+            Resolver = new UnityDependencyResolver(Container as IUnityContainer);
         }
     }
 }

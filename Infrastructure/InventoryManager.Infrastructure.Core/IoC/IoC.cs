@@ -5,9 +5,9 @@ namespace InventoryManager.Infrastructure.Core.IoC
 {
     public static class IoC
     {
-        public static IContainer Container { get; private set; }
+        public static IDependencyContainer Container { get; private set; }
 
-        public static void SetContainer(IContainer container)
+        public static void SetContainer(IDependencyContainer container)
         {
             Container = container;
         }

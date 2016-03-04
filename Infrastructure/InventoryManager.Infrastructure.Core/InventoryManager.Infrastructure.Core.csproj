@@ -59,12 +59,12 @@
     <Compile Include="EventSourcing\IVersionedEvent.cs" />
     <Compile Include="EventSourcing\Store\VersionedEventSerializer.cs" />
     <Compile Include="EventSourcing\VersionedEvent.cs" />
-    <Compile Include="IoC\DependencyRegistrarOptions.cs" />
-    <Compile Include="IoC\IContainer.cs" />
-    <Compile Include="IoC\IDependencyRegistrar.cs" />
+    <Compile Include="IoC\DependencyRegistryOptions.cs" />
+    <Compile Include="IoC\IDependencyContainer.cs" />
+    <Compile Include="IoC\IDependencyRegistry.cs" />
     <Compile Include="IoC\IDependencyResolver.cs" />
     <Compile Include="IoC\IoC.cs" />
-    <Compile Include="IoC\RegistrarBase.cs" />
+    <Compile Include="IoC\RegistryBase.cs" />
     <Compile Include="IProcessor.cs" />
     <Compile Include="Serialization\JsonTextSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
