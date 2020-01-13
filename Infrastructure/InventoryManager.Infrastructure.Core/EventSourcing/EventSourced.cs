@@ -3,57 +3,57 @@ using System.Collections.Generic;
 
 namespace InventoryManager.Infrastructure.Core.EventSourcing
 {
-    public abstract class EventSourced : IEventSourced
-    {
-        private readonly Dictionary<Type, Action<IVersionedEvent>> _handlers = new Dictionary<Type, Action<IVersionedEvent>>();
-        private readonly List<IVersionedEvent> _pendingEvents = new List<IVersionedEvent>();
+	public abstract class EventSourced : IEventSourced
+	{
+		private readonly Dictionary<Type, Action<IVersionedEvent>> _handlers = new Dictionary<Type, Action<IVersionedEvent>>();
+		private readonly List<IVersionedEvent> _pendingEvents = new List<IVersionedEvent>();
 
-        private readonly Guid _id;
-        private int _version = -1;
+		private readonly Guid _id;
+		private int _version = -1;
 
-        protected EventSourced(Guid id)
-        {
-            _id = id;
-        }
+		protected EventSourced(Guid id)
+		{
+			_id = id;
+		}
 
-        public Guid Id
-        {
-            get { return _id; }
-        }
+		public Guid Id
+		{
+			get { return _id; }
+		}
 
-        public int Version
-        {
-            get { return _version; }
-            protected set { _version = value; }
-        }
+		public int Version
+		{
+			get { return _version; }
+			protected set { _version = value; }
+		}
 
-        public IEnumerable<IVersionedEvent> Events
-        {
-            get { return _pendingEvents; }
-        }
+		public IEnumerable<IVersionedEvent> Events
+		{
+			get { return _pendingEvents; }
+		}
 
-        protected void Handles<TEvent>(Action<TEvent> handler)
-            where TEvent : IEventFromSource
-        {
-            _handlers.Add(typeof(TEvent), @event => handler((TEvent)@event));
-        }
+		protected void Handles<TEvent>(Action<TEvent> handler)
+			where TEvent : IEventFromSource
+		{
+			_handlers.Add(typeof(TEvent), @event => handler((TEvent)@event));
+		}
 
-        protected void LoadFrom(IEnumerable<IVersionedEvent> pastEvents)
-        {
-            foreach (var e in pastEvents)
-            {
-                _handlers[e.GetType()].Invoke(e);
-                _version = e.Version;
-            }
-        }
+		protected void LoadFrom(IEnumerable<IVersionedEvent> pastEvents)
+		{
+			foreach (var e in pastEvents)
+			{
+				_handlers[e.GetType()].Invoke(e);
+				_version = e.Version;
+			}
+		}
 
-        protected void Update(VersionedEvent e)
-        {
-            e.SourceId = Id;
-            e.Version = _version + 1;
-            _handlers[e.GetType()].Invoke(e);
-            _version = e.Version;
-            _pendingEvents.Add(e);
-        }
-    }
+		protected void Update(VersionedEvent e)
+		{
+			e.SourceId = Id;
+			e.Version = _version + 1;
+			_handlers[e.GetType()].Invoke(e);
+			_version = e.Version;
+			_pendingEvents.Add(e);
+		}
+	}
 }

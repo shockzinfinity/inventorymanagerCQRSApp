@@ -1,6 +1,6 @@
 namespace InventoryManager.Web.Areas.HelpPage.ModelDescriptions
 {
-    public class SimpleTypeModelDescription : ModelDescription
-    {
-    }
+	public class SimpleTypeModelDescription : ModelDescription
+	{
+	}
 }

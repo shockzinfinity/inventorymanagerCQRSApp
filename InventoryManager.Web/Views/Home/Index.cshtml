@@ -8,19 +8,19 @@
 <li>@Html.ActionLink("Refresh", "Index", "Home", new { area = "" }, null)</li>
 
 <table>
-    <tr>
-        <th>
-            Identifier
-        </th>
-        <th>
-            Name
-        </th>
-    </tr>
-    @foreach (var item in Model)
+	<tr>
+		<th>
+			Identifier
+		</th>
+		<th>
+			Name
+		</th>
+	</tr>
+	@foreach (var item in Model)
     {
-        <tr>
-            <td>@item.Id</td>
-            <td>@item.Name</td>
-        </tr>
+	<tr>
+		<td>@item.Id</td>
+		<td>@item.Name</td>
+	</tr>
     }
 </table>
